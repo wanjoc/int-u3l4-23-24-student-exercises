@@ -2,8 +2,6 @@
 
 Welcome to the reference guide for Lesson 3.4! Here you'll find key points and code snippets to help you recall and further understand the concepts we covered. Use this as a tool to review and reinforce your learning.
 
----
-
 ## Overview
 
 The Document Object Model (DOM) allows us to interact with and modify the structure, style, and content of websites using JavaScript. In this lesson, we learned about two properties: `.innerHTML` and `.src`.
