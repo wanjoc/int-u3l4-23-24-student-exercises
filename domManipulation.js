@@ -12,6 +12,8 @@ let image = document.querySelector('.image');
 // 2. When clicked, it should change the content of:
 //   - The `name` header.
 
+// -- RETURN TO LESSON --
+
 // CODE SOLO
 //   - The `hobby` paragraph.
 //   - The `location` paragraph.
