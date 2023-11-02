@@ -8,7 +8,7 @@ let para = document.querySelector('.paragraph');
 let image = document.querySelector('.image');
 
 // CODE ALONG
-// 1. An event listener in provided for the `contentButton`
+// 1. An event listener is provided for the `contentButton`
 // 2. When clicked, it should change the content of:
 //   - The `name` header.
 
