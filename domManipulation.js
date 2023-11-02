@@ -4,8 +4,10 @@ let image1Button = document.querySelector('.image-1-button');
 let image2Button = document.querySelector('.image-2-button');
 
 // html content elements
-let para = document.querySelector('.paragraph');
-let image = document.querySelector('.image');
+let myName = document.querySelector('.name');
+let myHobby = document.querySelector('.hobby');
+let myLocation = document.querySelector('.location');
+
 
 // CODE ALONG
 // 1. An event listener is provided for the `contentButton`
