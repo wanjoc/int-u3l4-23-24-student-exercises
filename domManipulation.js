@@ -7,6 +7,7 @@ let image2Button = document.querySelector('.image-2-button');
 let myName = document.querySelector('.name');
 let myHobby = document.querySelector('.hobby');
 let myLocation = document.querySelector('.location');
+let image = document.querySelector('.image');
 
 
 // CODE ALONG
