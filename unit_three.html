@@ -1,68 +1,62 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title>Unit 3 Project Starter Code</title>
+      <link rel="stylesheet" href="unit_three.css">
+      <script defer src="unit_three.js"></script>
+    </head>
+    <body>
+      <div class="navbar">
+          <a href="index.html">Do Now</a>
+          <a href="domManipulation.html">DOM Manipulation</a>
+          <a href="unit_three.html">Unit 3 Project Demo</a>
+      </div>
+        <!-- Add a title and edit the opening of your story. -->
+        <div class="title"> Huey + Riley's Day off </div>
+      <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="https://www.redringtones.com/wp-content/uploads/2016/10/boondocks-theme-song.mp3" type="audio/mpeg">
 
-<head>
-  <title>Unit 3 Project Starter Code</title>
-  <link rel="stylesheet" href="unit_three.css">
-  <script defer src="unit_three.js"></script>
-</head>
+      </audio>
+        <div class="story-opening">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDQxUEciuvCETtVJbDGkB2omOOC46uT9a56xzu2_hEQXGD5Z1SPn8VPdwuAQQ8NX6btA8SO7RgKktYgoSAXGxh6r0yu6txwAb16K9PmugN4aVuNUizGVu841lLWwgvqcytU7kPtZ4uuM9wPvHsnVkP9yeAIpaNDJqdhnqFh4FbTYNsWTAtsTOG3AXwzg/s650/Huey%20and%20Riley%20Freeman.jpg">
+            <h1>It's Saturday and Huey + Riley are bored in the house. Let's choose what they do today. </h1>
+          <p>Should they stay home for a chill day with Grandad or see what's going on outside?</p>
+        </div>
 
-<body>
-  <div class="navbar">
-    <a href="index.html">Do Now</a>
-    <a href="domManipulation.html">DOM Manipulation</a>
-    <a href="unit_three.html">Unit 3 Project Demo</a>
-  </div>
-  <!-- Add a title and edit the opening of your story. -->
-  <div class="title"> Huey + Riley's Day off </div>
-  <div class="story-opening">
-    <img
-      src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDQxUEciuvCETtVJbDGkB2omOOC46uT9a56xzu2_hEQXGD5Z1SPn8VPdwuAQQ8NX6btA8SO7RgKktYgoSAXGxh6r0yu6txwAb16K9PmugN4aVuNUizGVu841lLWwgvqcytU7kPtZ4uuM9wPvHsnVkP9yeAIpaNDJqdhnqFh4FbTYNsWTAtsTOG3AXwzg/s650/Huey%20and%20Riley%20Freeman.jpg">
-    <h1>It's Saturday and Huey + Riley are bored in the house. Let's choose what they do today. </h1>
-    <p>Should they stay home for a chill day with Grandad or see what's going on outside?</p>
-  </div>
+        <!-- Change the text of the buttons to the options relevant to your story. -->
+        <div class="buttons">
+            <button class="option-one">Stay inside</button>
+            <button class="option-two">Go outside</button>
+        </div>
+      <div class="home-button">
+        <button class="option-three">Homepage</button>
+      </div>
 
-  <!-- Change the text of the buttons to the options relevant to your story. -->
-  <div class="buttons">
-    <button class="option-one">Stay inside</button>
-    <button class="option-two">Go outside</button>
-  </div>
-  <div class="home-button">
-    <button class="option-three">Homepage</button>
-  </div>
+        <!-- Put the part of the story the user will see if they picked option one. -->
+        <div class="option-one-screen">
+            <h1>Huey, Riley + Grandad end up watching the trial of rapper Thugnificent and the Lethal Interjection Crew. They are having a good time, but only wish they had something to eat.</h1>
+          <p>Click on Thugnificent and the Lethal Interjection Crew to get some food. </p>
+            <img class= "thug-crew"src="https://i.ytimg.com/vi/zKP5PEKzd-M/sddefault.jpg">
+        </div>
 
-  <!-- Put the part of the story the user will see if they picked option one. -->
-  <div class="option-one-screen">
-    <h1>Huey, Riley + Grandad end up watching the trial of rapper Thugnificent and the Lethal Interjection Crew. They
-      are having a good time, but only wish they had something to eat.</h1>
-    <p>Click on Thugnificent and the Lethal Interjection Crew to get some food. </p>
-    <img class="thug-crew" src="https://i.ytimg.com/vi/zKP5PEKzd-M/sddefault.jpg">
-  </div>
+        <!-- Put the part of the story the user will see if they picked option two. -->
+        <div class="option-two-screen">
+            <h1>Huey and Riley take a walk and bump into Uncle Ruckus... He immediately yells at them for being too close to the white mans grass.  </h1>
+          <p>Click on Uncle Ruckus to get away from him.  </p>
+            <img class = "uncle-ruckus" src="https://noiselesschatter.com/wp-content/uploads/2013/02/uncleruckus.jpg">
+        </div>
 
-  <!-- Put the part of the story the user will see if they picked option two. -->
-  <div class="option-two-screen">
-    <h1>Huey and Riley take a walk and bump into Uncle Ruckus... He immediately yells at them for being too close to the
-      white mans grass. </h1>
-    <p>Click on Uncle Ruckus to get away from him. </p>
-    <img class="uncle-ruckus" src="https://noiselesschatter.com/wp-content/uploads/2013/02/uncleruckus.jpg">
-  </div>
+        <!--Put the end of the story if the user chose option 1.-->
+        <div class="option-one-end">
+            <h1>They convince Tom to bring over takeout from McWuncler's. Huey declines, he's on another hunger strike. When Tom arrives, Riley grabs the bag and tells him to wait on the porch while they set the table. Tom waits for 1 hour and then goes home and calls inccesantly. Grandad unplugs the phone and they enjoy the rest of their day.  </h1>
+            <img src="https://i.redd.it/njd7ektoa9wb1.jpg">
+        </div>
 
-  <!--Put the end of the story if the user chose option 1.-->
-  <div class="option-one-end">
-    <h1>They convince Tom to bring over takeout from McWuncler's. Huey declines, he's on another hunger strike. When Tom
-      arrives, Riley grabs the bag and tells him to wait on the porch while they set the table. Tom waits for 1 hour and
-      then goes home and calls inccesantly. Grandad unplugs the phone and they enjoy the rest of their day. </h1>
-    <img src="https://i.redd.it/njd7ektoa9wb1.jpg">
-  </div>
-
-  <!-- Put the end of the story if the user chose option 2.-->
-  <div class="option-two-end">
-    <h1>While running away from Uncle Ruckus they see Jazmine running towards them *Huey*. She has something important
-      proof to show him about the Tooth Fairy. The boys walk with her all afternoon;Huey discusses the ethics of the
-      Tooth Fairy, Jazmine wonders how many teeth will be enough for a pony and Riley plots his next move. </h1>
-    <img
-      src="https://m.media-amazon.com/images/M/MV5BYjMxMTY2MDAtYTYzZS00NGQzLWFlNDktODEyNDdkNTcxNTMwXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg">
-  </div>
-</body>
-
+        <!-- Put the end of the story if the user chose option 2.-->
+        <div class="option-two-end">
+            <h1>While running away from Uncle  Ruckus they see Jazmine running towards them *Huey*. She has something important proof to show him about the Tooth Fairy. The boys walk with her all afternoon;Huey discusses the ethics of the Tooth Fairy, Jazmine wonders how many teeth will be enough for a pony and Riley plots his next move.  </h1>
+            <img src="https://m.media-amazon.com/images/M/MV5BYjMxMTY2MDAtYTYzZS00NGQzLWFlNDktODEyNDdkNTcxNTMwXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg">
+        </div>
+    </body>
 </html>
